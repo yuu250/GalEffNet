@@ -1,5 +1,5 @@
 # GalEffNet
-I am a co-first author of the paper "Estimation of Stellar Mass and Star Formation Rate Based on Galaxy Images." This repository provides the main code used in the paper. You can download the pretrained weights of GalEffNet and the test dataset used in the paper from [URL](https://pan.baidu.com/s/1BTKr35C0EQ2ynD1QySXi9Q) (code: 119l). Below is an example of how to use the proposed GalEffNet for inference.
+I am a co-first author of the paper "Estimation of Stellar Mass and Star Formation Rate Based on Galaxy Images." This repository provides the main code used in the paper. You can download the pretrained weights of GalEffNet and the test dataset used in the paper from [here](https://pan.baidu.com/s/1BTKr35C0EQ2ynD1QySXi9Q) (code: 119l). Below is an example of how to use the proposed GalEffNet for inference.
 
 ## Requirements
 - `tensorflow==2.8.0`
@@ -53,7 +53,7 @@ For detailed code, please refer to the `inference.ipynb` file.
 ## Citation
 
 If you use our work, please cite our paper as follows:
-
+```
 @article{10.1093/mnras/stae1271,
     author = {Zhong, Jing and Deng, Zhijie and Li, Xiangru and Wang, Lili and Yang, Haifeng and Li, Hui and Zhao, Xirong},
     title = "{Estimation of stellar mass and star formation rate based on galaxy images}",
@@ -66,7 +66,7 @@ If you use our work, please cite our paper as follows:
     url = {https://doi.org/10.1093/mnras/stae1271},
     eprint = {https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stae1271/57708731/stae1271.pdf},
 }
-
+ ```
 
 
 
