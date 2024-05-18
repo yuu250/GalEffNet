@@ -48,7 +48,7 @@ I am a co-first author of the paper "Estimation of Stellar Mass and Star Formati
     y = final_model.predict(np.array(img_rgb3))
     ```
 
-For detailed code, please refer to the `inference.ipynb` file.
+For detailed code, please refer to the `inference_example.ipynb` file.
 
 ## Citation
 
