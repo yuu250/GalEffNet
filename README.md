@@ -43,9 +43,14 @@ I am a co-first author of the paper ["Estimation of Stellar Mass and Star Format
     img_rgb3 = [to_rgb.dr2_rgb(i, ['g', 'r', 'z']) for i in cropped_images]
     img_rgb3 = np.array(img_rgb3)
     ```
-4. **Generate Predictions**
+4. **Generate Predictions and Denormalize**
     ```python
     y = final_model.predict(np.array(img_rgb3))
+    lgm_pred=np.array(y[0])
+    lgm_pred=scaler_lgm.inverse_transform(lgm_pred)
+    
+    ssfr_pred=np.array(y[1])
+    ssfr_pred=scaler_sfr.inverse_transform(ssfr_pred)
     ```
 
 For detailed code, please refer to the `inference_example.ipynb` file.
